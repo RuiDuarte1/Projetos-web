@@ -1,1 +1,2 @@
-# calculadora
+#RuiDuarte
+#ADS-IFCE Canindé
