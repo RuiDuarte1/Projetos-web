@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao 5</title>
+    <script>
+        function Enviar(){
+            var number = document.getElementById("idadeid");
+            if (idade.value < 18){
+                alert("Você não pode acessar esse conteúdo");
+            }else if(idade.value >= 18){
+                alert("Você pode acessar o conteúdo");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Restrição</h1>
+    <form name="restricao">
+        <input type="text" id = "nomeid" name="nome">
+        <label for="nome">Nome</label>
+
+        <br>
+        <br>
+
+        <input type="=tel" id = "telefoneid" name="telefone">
+        <label for="telefone">Telefone</label>
+
+        <br>
+        <br>
+
+        <input type="number" name="idadeid" id="idade">
+        <label for="idade">Idade</label>
+
+        <br>
+        <br>
+
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar">
+    </form>
+</body>
+</html>
